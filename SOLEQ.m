@@ -1,3 +1,9 @@
+% Sub-Optimal Linear Estimator of Quaternion (SOLEQ), proposed by Jin Wu, Zebo Zhou et al.
+% jin_wu_uestc@hotmail.com
+% klinsmann.zhou@gmail.com
+
+
+
 function q=SOLEQ(Db,Dr,k)
 
 n=length(Db(1,:));

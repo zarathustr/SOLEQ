@@ -1,3 +1,5 @@
+%Gramm-Schmidt for 4x4 matrix
+
 function [v] = GS4(A)
 v(:,1)=A(:,1)/norm(A(:,1));
 Num=0;
